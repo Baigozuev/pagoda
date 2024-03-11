@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: url("./img/pagoda.jpg");
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.hero {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input {
+width: 200px;  
+height: 35px;
+  background: rgba(89, 227, 8, 0.47);
+    border: 2px solid rgb(87, 74, 4);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(28, 3, 54);
+}
+.search-btn {
+    padding: 10px 20px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background:blueviolet ;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.search-btn:hover {
+    transform: scale(1.1);
+    background: none;
+    color: black;
+}
+ .pagoda {
+    width: 300px;
+    height: 300px;
+    border:2px solid rgba(11, 35, 64, 0.794);
+    border-radius: 25px;
+    background: rgba(154, 154, 163, 0.203);
+    margin-left: 270px;
+    margin-top: 30px;
+ }
+ .pag {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 90px 0;
+    gap: 30px;
+ }
+
+
+ h5 {
+font-size: 20px;
+font-weight: 600;
+color: rgb(120, 120, 229);
+ }
+ h5 span {
+    font-size: 13px;
+    color: rgba(23, 3, 82, 0.434);
+
+ }
+ .text {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(204, 221, 15, 0.656);
+ }
+ h2 {
+    color: aliceblue;
+ }
+ h2 sup {
+    font-size: 12px;
+ }
+ h3 {
+    color: rgb(11, 60, 3);
+    text-transform: capitalize;
+ }
